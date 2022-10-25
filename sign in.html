@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                margin:0%;
+            }
+            #maincontainer{
+                
+                height:100vh;
+            } 
+
+            header{
+                
+                height: 60px;
+                
+            }
+            main{
+                border:2px solid black;
+                width: 300px;
+                margin: auto;
+                padding: 1px;
+                height: 60%;  
+            }
+            
+            h5{
+                width:100%;
+                text-align: center;
+                border-bottom: 1px solid black;
+                line-height: 0.1em;
+                margin:10px 0 20px;            
+            }
+            h5 span{
+                background: white;
+                padding:0 10px;
+            }
+            #text{
+                height: 40px;
+                width: 280px;
+            
+            }
+            .button{
+                text-align: center;
+                background-color: goldenrod;
+                width:100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="maincontainer">
+            <header>
+               <center><img src = "./img.jpg" height="58" width="120"></center>            </header>
+            <main>
+                <h2>Sign in</h2>
+                <h3 style="color:blue;text-align: right;">Forgot password</h3>
+                <input  id="text" type="email" value="Email">
+                <input id="text" type="text" value="Amazon Password"><br><br>
+               <label><input type="radio">Show password</label><br><br>
+               <center><input  class="button" type="button" value="Sign in"></center><br>
+               <h5><span>New to Amazon?</span></h5>
+               <center><a href="./index.html"><input  type="button" value="Create a new Amazon account"></a></center>
+            </main>
+            <footer></footer>
+        </div>
+        
+    </body>
+
+</html>
